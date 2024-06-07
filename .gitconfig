@@ -1,0 +1,14 @@
+[user]
+	name = Thomas J. Kennedy
+[push]
+	default = simple
+[diff]
+	tool = vimdiff
+
+[alias]
+    log-fancy = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%n'
+    log-fancy-no-color = log --graph --abbrev-commit --decorate --format=format:'%h - %aD (%ar)%d%n''          %s - %an%n'
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
